@@ -1,0 +1,23 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "pry.codigo-civil-ley-1183-85"
+           :title "Código Civil (Ley N.º 1.183/85)"
+           :jurisdiction "PRY"
+           :kind :law
+           :law-number "Ley N.º 1.183/85"
+           :url "https://www.conatel.gov.py/conatel/wp-content/uploads/2019/10/ley-1183_1985-cdigo-civil-paraguayo.pdf"
+           :url-provenance :official-conatel-gov-py-mirror
+           :enacted-date "1985-12-18"
+           :retrieved-at "2026-07-16"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "pry.ley-7593-2025-proteccion-datos"
+           :title "Ley N.º 7593/2025 (De Protección de Datos Personales en la República del Paraguay)"
+           :jurisdiction "PRY"
+           :kind :law
+           :law-number "Ley N.º 7593/2025"
+           :url "https://silpy.congreso.gov.py/web/ley/146223"
+           :url-provenance :official-silpy-congreso-gov-py
+           :enacted-date "2025-11-27"
+           :retrieved-at "2026-07-16"
+           :topic [:data-protection :privacy]}]
